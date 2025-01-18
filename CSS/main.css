@@ -1,0 +1,228 @@
+/* ПОДКЛЮЧЕНИЕ ШРИФТОВ */
+
+
+/* --------------------------------------------------------- */
+
+/* БАЗОВЫЕ СТИЛИ */
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --color-black: #1a1a1a;
+    
+}
+
+.page {
+    min-width: 320px;
+    /* font-family: "SF Pro Text Regular", sans-serif; */
+    font-weight: 400;
+    font-size: 18px;
+    /* color: $color-black; */
+    /* overflow-x: hidden; */
+}
+
+/* --------------------------------------------------------- */
+
+/* ОСНОВНЫЕ СТИЛИ ДЛЯ ОБЩИХ ЭЛЕМЕНТОВ */
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 180px;
+    margin: 0 auto;
+}
+
+
+.block {
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.h1{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+
+
+.h2 {
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 111%;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
+}
+
+.h3{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 129%;
+    letter-spacing: 0.01em;
+    color: #1a1a1a;
+}
+
+.title-white{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.descr-dark{
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+
+}
+
+.descr{
+
+}
+.section-descr {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 188%;
+    letter-spacing: 0.03em;
+    color: #1a1a1a;
+}
+
+.signature{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 177%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+
+.section-offset {
+}
+
+/* // Кнопки */
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    color: #777;
+    background-color: #fff;
+
+    transition: all 0.3s ease-in-out;
+}
+
+
+.hide-block {
+    display: none !important;
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+.course-section-title{
+    font-weight: 600;
+    font-size:70px;
+    color:#1a1a1a;
+    margin:60px 0 ;
+}
+.course-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.card-big{
+    width:540px;
+}
+.card-small{
+    width: 360px;
+}
+.img-container{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.btn-time{
+    background-color: white;
+    border-radius:5px;
+    color:#111;
+    padding: 6px 12px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.btn-raiting{
+    width:77px;
+    background-color: #111;
+    border-radius: 5px;
+    color:#fff;
+    padding: 6px 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.course-category{
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #bababa;
+    font-weight: 400;
+    margin: 18px 0 ;
+}
+.course-title{
+    font-size:35px;
+    font-weight:bold;
+    letter-spacing:0.3px;
+    color:#1a1a1a;
+    margin-bottom:20px;
+}
+.course-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color:#767676;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+.img-card-1{
+    background-image: url(/img/card-1.png);
+}
+.img-card-2{
+    background-image: url(/img/card-2.png);
+}
